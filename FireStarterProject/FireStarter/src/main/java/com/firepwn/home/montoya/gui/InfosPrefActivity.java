@@ -84,7 +84,7 @@ public class InfosPrefActivity extends PreferenceFragment
             }
         });
 
-        Preference prefGoToSleep = (Preference) findPreference("prefVirtualGoToSleep");
+        /*Preference prefGoToSleep = (Preference) findPreference("prefVirtualGoToSleep");
         prefGoToSleep.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener()
         {
             @Override
@@ -93,9 +93,9 @@ public class InfosPrefActivity extends PreferenceFragment
                 Toast.makeText(InfosPrefActivity.this.getActivity(), getActivity().getResources().getString(R.string.gotosleep_summary), Toast.LENGTH_SHORT).show();
                 return false;
             }
-        });
+        });*/
 
-        Preference prefReboot = (Preference) findPreference("prefVirtualRestart");
+        /*Preference prefReboot = (Preference) findPreference("prefVirtualRestart");
         prefReboot.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener()
         {
             @Override
@@ -104,6 +104,6 @@ public class InfosPrefActivity extends PreferenceFragment
                 Toast.makeText(InfosPrefActivity.this.getActivity(), getActivity().getResources().getString(R.string.system_restart_summary_removed), Toast.LENGTH_SHORT).show();
                 return false;
             }
-        });
+        });*/
     }
 }

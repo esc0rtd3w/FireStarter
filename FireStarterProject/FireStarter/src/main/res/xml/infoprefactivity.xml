@@ -43,15 +43,15 @@
             android:summary="@string/system_sleeptime_edit_summary"
             android:title="@string/system_sleeptime_edit_title" />
 
-        <Preference
+        <!--<Preference
             android:key="prefVirtualGoToSleep"
             android:summary="@string/gotosleep_summary"
-            android:title="@string/gotosleep_title" />
+            android:title="@string/gotosleep_title" />-->
 
-        <Preference
+        <!--<Preference
             android:key="prefVirtualRestart"
             android:summary="@string/system_restart_summary_removed"
-            android:title="@string/system_restart_title" />
+            android:title="@string/system_restart_title" />-->
 
     </PreferenceCategory>
 
