@@ -10,23 +10,23 @@ import java.net.URL;
 import java.util.Scanner;
 
 /**
- * Handles updates for SPMC
+ * Handles updates for Custom Kodi Build
  */
 public class KodiDataUpdater extends Updater
 {
     /** Update URL where updated versions are found */
-    private String mUpdateUrl = "https://api.github.com/repos/koying/SPMC/releases";
+    private String mUpdateUrl = "https://github.com/esc0rtd3w/com.firepwn.kodi.build.default/releases";
 
     @Override
     public String getAppName()
     {
-        return "SPMC";
+        return "Custom Kodi Build";
     }
 
     @Override
     public String getPackageName(Context context)
     {
-        return "com.semperpax.spmc16";
+        return "com.firepwn.kodi.build.default";
     }
 
     @Override
@@ -78,10 +78,8 @@ public class KodiDataUpdater extends Updater
         {
             JSONObject currentAsset = assets.getJSONObject(i);
             String downloadUrl = currentAsset.getString("browser_download_url");
-            if(downloadUrl.startsWith("https://github.com/koying/SPMC/releases")
-                    && downloadUrl.endsWith(".apk")
-                    && downloadUrl.toLowerCase().contains("arm")
-                    && !(downloadUrl.toLowerCase().contains("launcher")))
+            if(downloadUrl.startsWith("https://github.com/esc0rtd3w/com.firepwn.kodi.build.default/releases")
+                    && downloadUrl.endsWith(".zip"))
             {
                 mApkDownloadUrl = downloadUrl;
                 break;
@@ -89,7 +87,7 @@ public class KodiDataUpdater extends Updater
         }
         if(mApkDownloadUrl == null)
         {
-            throw new JSONException("No .apk download URL found");
+            throw new JSONException("No .zip download URL found");
         }
     }
 }
