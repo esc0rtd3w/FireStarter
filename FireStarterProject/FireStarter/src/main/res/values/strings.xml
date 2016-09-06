@@ -1,6 +1,7 @@
 <resources>
     <!-- String resources (non translatable) -->
     <string name="AppName">FirePwnHome</string>
+    <string name="AppUrl">firepwn.com</string>
 
     <!-- To be translated -->
     <string name="AmazonHome">FireTV Home</string>
@@ -39,7 +40,7 @@
     <string name="update_hitcheckfor">Hit check for update to check for latest version.</string>
     <string name="autoselectfirsticon_desc">Auto select the first icon when switching to the app drawer (All Apps).</string>
     <string name="autoselectfirsricon_title">Auto select first icon (App Drawer)</string>
-    <string name="about_firestarter">FirePwnHome is a fork of FireStopper (https://github.com/jkchr1s/FireStarter), which is a fork of AppStarter (https://github.com/sphinx02/AppStarter).\n\n\nVisit project on GitHub:\nhttps://github.com/esc0rtd3w/com.firepwn.home.montoya</string>
+    <string name="about_firestarter">FirePwnHome is a fork of FireStopper (https://github.com/jkchr1s/FireStarter).\nFireStopper is a fork of AppStarter (https://github.com/sphinx02/AppStarter).\n\n\nVisit This Project On GitHub:\nhttps://github.com/esc0rtd3w/com.firepwn.home.montoya</string>
     <string name="jumpbackwatchdogtime_desc">The time window in milliseconds (between 0 - 10000) in which FirePwnHome prevents the amazon home launcher from coming to foreground when click-actions have been performed. Set to 0 to disable.</string>
     <string name="jumpbackwatchdogtime_title">Jump Back Watchdog Time</string>
     <string name="AmazonSettings">Settings</string>

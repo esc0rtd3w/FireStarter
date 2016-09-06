@@ -37,7 +37,7 @@
                     android:layout_marginTop="13dp"
                     android:textSize="17dp"
                     android:textColor="#FFFFFF"
-                    android:text="@string/AppName"
+                    android:text="@string/AppUrl"
                     android:autoText="true"
                     android:focusable="false"
                     android:textStyle="bold" />
