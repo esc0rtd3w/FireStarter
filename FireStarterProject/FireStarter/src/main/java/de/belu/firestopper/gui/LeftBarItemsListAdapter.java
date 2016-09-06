@@ -1,4 +1,4 @@
-package de.belu.firestopper.gui;
+package com.firepwn.home.montoya.gui;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.belu.firestopper.R;
+import com.firepwn.home.montoya.R;
 
 /**
  * Adpater for items in the left selection bar

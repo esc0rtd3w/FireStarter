@@ -1,8 +1,8 @@
-package de.belu.firestopper.tests;
+package com.firepwn.home.montoya.tests;
 
 import android.test.InstrumentationTestCase;
 
-import de.belu.firestopper.tools.KodiUpdater;
+import com.firepwn.home.montoya.tools.KodiUpdater;
 
 /**
  * Created by attila.szasz on 23-Oct-15.

@@ -1,12 +1,12 @@
-package de.belu.firestopper.observer;
+package com.firepwn.home.montoya.observer;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import de.belu.firestopper.tools.AppStarter;
-import de.belu.firestopper.tools.SettingsProvider;
+import com.firepwn.home.montoya.tools.AppStarter;
+import com.firepwn.home.montoya.tools.SettingsProvider;
 
 /**
  * Receiver for Boot-Complete Broadcast

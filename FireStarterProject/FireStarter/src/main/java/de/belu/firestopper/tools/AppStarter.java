@@ -1,4 +1,4 @@
-package de.belu.firestopper.tools;
+package com.firepwn.home.montoya.tools;
 
 import android.app.ActivityManager;
 import android.content.ComponentName;
@@ -15,7 +15,7 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.List;
 
-import de.belu.firestopper.gui.InstalledAppsAdapter;
+import com.firepwn.home.montoya.gui.InstalledAppsAdapter;
 
 /**
  * Provides methods to start apps

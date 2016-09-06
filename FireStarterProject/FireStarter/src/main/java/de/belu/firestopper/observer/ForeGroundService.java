@@ -1,4 +1,4 @@
-package de.belu.firestopper.observer;
+package com.firepwn.home.montoya.observer;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -21,12 +21,12 @@ import java.util.Calendar;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import de.belu.firestopper.R;
-import de.belu.firestopper.gui.AppActivity;
-import de.belu.firestopper.gui.MainActivity;
-import de.belu.firestopper.tools.AppStarter;
-import de.belu.firestopper.tools.SettingsProvider;
-import de.belu.firestopper.tools.FireStarterUpdater;
+import com.firepwn.home.montoya.R;
+import com.firepwn.home.montoya.gui.AppActivity;
+import com.firepwn.home.montoya.gui.MainActivity;
+import com.firepwn.home.montoya.tools.AppStarter;
+import com.firepwn.home.montoya.tools.SettingsProvider;
+import com.firepwn.home.montoya.tools.FireStarterUpdater;
 
 
 /**

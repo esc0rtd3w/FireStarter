@@ -1,11 +1,11 @@
-package de.belu.firestopper.observer;
+package com.firepwn.home.montoya.observer;
 
 import android.app.ActivityManager;
 import android.content.Context;
 import android.util.Log;
 
-import de.belu.firestopper.tools.AppStarter;
-import de.belu.firestopper.tools.SettingsProvider;
+import com.firepwn.home.montoya.tools.AppStarter;
+import com.firepwn.home.montoya.tools.SettingsProvider;
 
 
 /**

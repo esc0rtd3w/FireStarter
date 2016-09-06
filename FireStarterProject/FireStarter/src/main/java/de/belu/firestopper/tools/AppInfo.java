@@ -1,4 +1,4 @@
-package de.belu.firestopper.tools;
+package com.firepwn.home.montoya.tools;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;

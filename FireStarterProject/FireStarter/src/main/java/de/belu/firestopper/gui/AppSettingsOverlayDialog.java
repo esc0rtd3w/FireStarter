@@ -1,4 +1,4 @@
-package de.belu.firestopper.gui;
+package com.firepwn.home.montoya.gui;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -10,8 +10,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import de.belu.firestopper.R;
-import de.belu.firestopper.tools.AppInfo;
+import com.firepwn.home.montoya.R;
+import com.firepwn.home.montoya.tools.AppInfo;
 
 /**
  * App Settings Overlay for additional settings per app

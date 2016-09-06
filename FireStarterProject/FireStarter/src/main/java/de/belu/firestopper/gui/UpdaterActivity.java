@@ -1,4 +1,4 @@
-package de.belu.firestopper.gui;
+package com.firepwn.home.montoya.gui;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import android.widget.ListView;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-import de.belu.firestopper.R;
-import de.belu.firestopper.tools.FireStarterUpdater;
-import de.belu.firestopper.tools.SettingsProvider;
-import de.belu.firestopper.tools.Updater;
+import com.firepwn.home.montoya.R;
+import com.firepwn.home.montoya.tools.FireStarterUpdater;
+import com.firepwn.home.montoya.tools.SettingsProvider;
+import com.firepwn.home.montoya.tools.Updater;
 
 /**
  * Shows the updates for all available installable apps including FireStarter itself

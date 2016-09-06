@@ -1,4 +1,4 @@
-package de.belu.firestopper.tools;
+package com.firepwn.home.montoya.tools;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -28,8 +28,8 @@ import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Enumeration;
 
-import de.belu.firestopper.R;
-import de.belu.firestopper.observer.ForeGroundService;
+import com.firepwn.home.montoya.R;
+import com.firepwn.home.montoya.observer.ForeGroundService;
 
 /**
  * Tools class to provide some additional infos

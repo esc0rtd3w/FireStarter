@@ -1,4 +1,4 @@
-package de.belu.firestopper.gui;
+package com.firepwn.home.montoya.gui;
 
 import android.app.Activity;
 import android.app.AlertDialog;

@@ -1,4 +1,4 @@
-package de.belu.firestopper.observer;
+package com.firepwn.home.montoya.observer;
 
 /**
  * Interface for a service error

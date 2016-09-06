@@ -1,4 +1,4 @@
-package de.belu.firestopper.tools;
+package com.firepwn.home.montoya.tools;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -16,7 +16,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.Semaphore;
 
-import de.belu.firestopper.R;
+import com.firepwn.home.montoya.R;
 
 /**
  * Settings Provider to store all Settins of the app

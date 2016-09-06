@@ -1,4 +1,4 @@
-package de.belu.firestopper.gui;
+package com.firepwn.home.montoya.gui;
 
 import android.app.AlertDialog;
 import android.app.FragmentManager;
@@ -17,14 +17,14 @@ import android.widget.Toast;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-import de.belu.firestopper.R;
-import de.belu.firestopper.tools.AppInfo;
-import de.belu.firestopper.tools.AppStarter;
-import de.belu.firestopper.tools.FireStarterUpdater;
-import de.belu.firestopper.tools.SettingsProvider;
-import de.belu.firestopper.tools.Tools;
+import com.firepwn.home.montoya.R;
+import com.firepwn.home.montoya.tools.AppInfo;
+import com.firepwn.home.montoya.tools.AppStarter;
+import com.firepwn.home.montoya.tools.FireStarterUpdater;
+import com.firepwn.home.montoya.tools.SettingsProvider;
+import com.firepwn.home.montoya.tools.Tools;
 
-import static de.belu.firestopper.gui.AppSettingsOverlayDialog.*;
+import static com.firepwn.home.montoya.gui.AppSettingsOverlayDialog.*;
 
 /**
  * Launcher main (shows the user apps)

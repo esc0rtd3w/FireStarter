@@ -1,4 +1,4 @@
-package de.belu.firestopper.observer;
+package com.firepwn.home.montoya.observer;
 
 import android.content.Context;
 import android.util.Log;
@@ -12,8 +12,8 @@ import java.io.PrintWriter;
 import java.io.SequenceInputStream;
 import java.io.StringWriter;
 
-import de.belu.firestopper.tools.AppStarter;
-import de.belu.firestopper.tools.SettingsProvider;
+import com.firepwn.home.montoya.tools.AppStarter;
+import com.firepwn.home.montoya.tools.SettingsProvider;
 
 
 /**

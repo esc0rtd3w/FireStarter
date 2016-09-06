@@ -1,4 +1,4 @@
-package de.belu.firestopper.gui;
+package com.firepwn.home.montoya.gui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,12 +12,12 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.belu.firestopper.R;
-import de.belu.firestopper.tools.FireStarterUpdater;
-import de.belu.firestopper.tools.KodiUpdater;
-import de.belu.firestopper.tools.SPMCUpdater;
-import de.belu.firestopper.tools.SettingsProvider;
-import de.belu.firestopper.tools.Updater;
+import com.firepwn.home.montoya.R;
+import com.firepwn.home.montoya.tools.FireStarterUpdater;
+import com.firepwn.home.montoya.tools.KodiUpdater;
+import com.firepwn.home.montoya.tools.SPMCUpdater;
+import com.firepwn.home.montoya.tools.SettingsProvider;
+import com.firepwn.home.montoya.tools.Updater;
 
 /**
  * Adapter that lists all installed apps

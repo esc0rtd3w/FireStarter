@@ -1,4 +1,4 @@
-package de.belu.firestopper.gui;
+package com.firepwn.home.montoya.gui;
 
 import android.os.Bundle;
 import android.os.SystemClock;
@@ -10,8 +10,8 @@ import android.widget.Toast;
 import java.text.DateFormat;
 import java.util.Date;
 
-import de.belu.firestopper.R;
-import de.belu.firestopper.tools.Tools;
+import com.firepwn.home.montoya.R;
+import com.firepwn.home.montoya.tools.Tools;
 
 /**
  * Info / System view

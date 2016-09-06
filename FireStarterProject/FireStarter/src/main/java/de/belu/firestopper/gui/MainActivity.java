@@ -1,4 +1,4 @@
-package de.belu.firestopper.gui;
+package com.firepwn.home.montoya.gui;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -28,9 +28,9 @@ import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import de.belu.firestopper.R;
-import de.belu.firestopper.observer.ForeGroundService;
-import de.belu.firestopper.tools.SettingsProvider;
+import com.firepwn.home.montoya.R;
+import com.firepwn.home.montoya.observer.ForeGroundService;
+import com.firepwn.home.montoya.tools.SettingsProvider;
 
 
 public class MainActivity extends Activity

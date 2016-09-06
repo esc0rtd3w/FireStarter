@@ -1,4 +1,4 @@
-package de.belu.firestopper.gui;
+package com.firepwn.home.montoya.gui;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -26,11 +26,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import de.belu.firestopper.R;
-import de.belu.firestopper.tools.AppInfo;
-import de.belu.firestopper.tools.AppStarter;
-import de.belu.firestopper.tools.SettingsProvider;
-import de.belu.firestopper.tools.Tools;
+import com.firepwn.home.montoya.R;
+import com.firepwn.home.montoya.tools.AppInfo;
+import com.firepwn.home.montoya.tools.AppStarter;
+import com.firepwn.home.montoya.tools.SettingsProvider;
+import com.firepwn.home.montoya.tools.Tools;
 
 /**
  * Adapter that lists all installed apps
@@ -38,7 +38,7 @@ import de.belu.firestopper.tools.Tools;
 public class InstalledAppsAdapter extends BaseAdapter
 {
     /** Virtual package for settings app */
-    public static final String VIRTUAL_SETTINGS_PACKAGE = "de.belu.firestopper.virtual.settings";
+    public static final String VIRTUAL_SETTINGS_PACKAGE = "com.firepwn.home.montoya.virtual.settings";
 
     /** Context we are currently running in */
     private Context mContext;
@@ -70,7 +70,7 @@ public class InstalledAppsAdapter extends BaseAdapter
     /**
      * Create new InstalledAppsAdapter
      * @param c Current context
-     * @param includeOwnApp Include this app (de.belu.firestopper)
+     * @param includeOwnApp Include this app (com.firepwn.home.montoya)
      */
     public InstalledAppsAdapter(Context c, Boolean includeOwnApp, Boolean showHiddenApps)
     {

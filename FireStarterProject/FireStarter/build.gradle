@@ -5,11 +5,11 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "de.belu.firestopper"
+        applicationId "com.firepwn.home.montoya"
         minSdkVersion 17
         targetSdkVersion 22
         versionCode 23
-        versionName "3.2.3"
+        versionName "1.0.0"
     }
 
     compileOptions {

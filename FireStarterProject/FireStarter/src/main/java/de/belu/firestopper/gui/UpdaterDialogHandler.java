@@ -1,11 +1,11 @@
-package de.belu.firestopper.gui;
+package com.firepwn.home.montoya.gui;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
 
-import de.belu.firestopper.R;
-import de.belu.firestopper.tools.FireStarterUpdater;
-import de.belu.firestopper.tools.Updater;
+import com.firepwn.home.montoya.R;
+import com.firepwn.home.montoya.tools.FireStarterUpdater;
+import com.firepwn.home.montoya.tools.Updater;
 
 /**
  * Handles the update-dialogs in case of an update

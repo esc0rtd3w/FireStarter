@@ -1,4 +1,4 @@
-package de.belu.firestopper.tools;
+package com.firepwn.home.montoya.tools;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Semaphore;
 
-import de.belu.firestopper.gui.UpdaterDialogHandler;
+import com.firepwn.home.montoya.gui.UpdaterDialogHandler;
 
 /**
  * Base Updater functionality

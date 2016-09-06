@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.belu.firestopper" >
+    package="com.firepwn.home.montoya" >
 
     <!-- Permissions -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -20,7 +20,7 @@
 
         <!-- Main Activity (Launcher Activity) -->
         <activity
-            android:name="de.belu.firestopper.gui.MainActivity"
+            android:name="com.firepwn.home.montoya.gui.MainActivity"
             android:label="@string/AppName"
             android:launchMode="singleInstance"
             android:stateNotNeeded="true">
@@ -56,10 +56,10 @@
         </activity>
 
         <!-- Our Foreground Service -->
-        <service android:name="de.belu.firestopper.observer.ForeGroundService" />
+        <service android:name="com.firepwn.home.montoya.observer.ForeGroundService" />
 
         <!-- Startup receiver -->
-        <receiver android:name="de.belu.firestopper.observer.StartUpBootReceiver">
+        <receiver android:name="com.firepwn.home.montoya.observer.StartUpBootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>

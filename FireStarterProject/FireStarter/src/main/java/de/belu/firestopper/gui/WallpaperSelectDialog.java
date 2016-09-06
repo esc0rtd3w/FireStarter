@@ -1,4 +1,4 @@
-package de.belu.firestopper.gui;
+package com.firepwn.home.montoya.gui;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -17,8 +17,8 @@ import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.belu.firestopper.R;
-import de.belu.firestopper.tools.Tools;
+import com.firepwn.home.montoya.R;
+import com.firepwn.home.montoya.tools.Tools;
 
 /**
  * Created by luki on 28.06.15.
