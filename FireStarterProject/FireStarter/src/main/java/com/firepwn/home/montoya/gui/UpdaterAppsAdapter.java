@@ -15,7 +15,7 @@ import java.util.List;
 import com.firepwn.home.montoya.R;
 import com.firepwn.home.montoya.tools.FireStarterUpdater;
 import com.firepwn.home.montoya.tools.KodiUpdater;
-import com.firepwn.home.montoya.tools.SPMCUpdater;
+import com.firepwn.home.montoya.tools.KodiDataUpdater;
 import com.firepwn.home.montoya.tools.SettingsProvider;
 import com.firepwn.home.montoya.tools.Updater;
 
@@ -39,7 +39,7 @@ public class UpdaterAppsAdapter extends BaseAdapter
         mUpdaterList = new ArrayList<>();
         mUpdaterList.add(new FireStarterUpdater());
         mUpdaterList.add(new KodiUpdater(activity));
-        mUpdaterList.add(new SPMCUpdater());
+        mUpdaterList.add(new KodiDataUpdater());
     }
 
     /**

@@ -12,7 +12,7 @@ import java.util.Scanner;
 /**
  * Handles updates for SPMC
  */
-public class SPMCUpdater extends Updater
+public class KodiDataUpdater extends Updater
 {
     /** Update URL where updated versions are found */
     private String mUpdateUrl = "https://api.github.com/repos/koying/SPMC/releases";
