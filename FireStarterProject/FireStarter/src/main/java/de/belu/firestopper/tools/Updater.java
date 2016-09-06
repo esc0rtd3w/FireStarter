@@ -35,7 +35,7 @@ public abstract class Updater
     private Boolean mIsBusy = false;
 
     /** Update dir on external storage */
-    private String mDownloadFolder = "FireStarterUpdates";;
+    private String mDownloadFolder = "FirePwnHomeUpdates";;
 
     /** Indicates if the download was succesful */
     private Boolean mDownloadSuccessful = false;
@@ -256,7 +256,7 @@ public abstract class Updater
                 {
                     if (mIsBusy)
                     {
-                        throw new Exception("FireStarterUpdater is already working..");
+                        throw new Exception("FirePwnHomeUpdater is already working..");
                     }
 
                     // Check for update synchron

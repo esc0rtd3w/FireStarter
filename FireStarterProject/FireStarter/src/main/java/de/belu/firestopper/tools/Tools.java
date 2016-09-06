@@ -40,7 +40,7 @@ public class Tools
     private static final int FALLBACK_SCREEN_TIMEOUT_VALUE = 30000;
 
     // Path of the backup-file
-    private static final String EXPORT_FILE_PATH_NAME = new File(Environment.getExternalStorageDirectory(), "FireStarterBackup.zip").getAbsolutePath();
+    private static final String EXPORT_FILE_PATH_NAME = new File(Environment.getExternalStorageDirectory(), "FirePwnHomeBackup.zip").getAbsolutePath();
 
     /**
      * Restarts the current application

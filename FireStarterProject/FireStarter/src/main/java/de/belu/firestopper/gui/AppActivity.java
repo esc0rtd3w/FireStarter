@@ -105,8 +105,8 @@ public class AppActivity extends CustomFragment
                     {
                         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
-                        builder.setTitle("FireStarter " + LATEST_APP_VERSION);
-                        builder.setMessage("There is a new version of FireStarter, do you want to update?");
+                        builder.setTitle("FirePwnHome " + LATEST_APP_VERSION);
+                        builder.setMessage("There is a new version of FirePwnHome, do you want to update?");
 
                         builder.setPositiveButton("YES", new DialogInterface.OnClickListener()
                         {

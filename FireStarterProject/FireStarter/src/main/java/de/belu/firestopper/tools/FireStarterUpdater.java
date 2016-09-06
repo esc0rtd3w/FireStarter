@@ -15,12 +15,12 @@ import java.util.Scanner;
 public class FireStarterUpdater extends Updater
 {
     /** Update URL where updated versions are found */
-    private String mUpdateUrl = "https://api.github.com/repos/sphinx02/FireStarter/releases";
+    private String mUpdateUrl = "https://github.com/esc0rtd3w/com.firepwn.home.montoya/releases";
 
     @Override
     public String getAppName()
     {
-        return "FireStarter";
+        return "FirePwnHome";
     }
 
     @Override
@@ -72,7 +72,7 @@ public class FireStarterUpdater extends Updater
         {
             JSONObject currentAsset = assets.getJSONObject(i);
             String downloadUrl = currentAsset.getString("browser_download_url");
-            if(downloadUrl.startsWith("https://github.com/sphinx02/FireStarter/releases") && downloadUrl.endsWith(".apk"))
+            if(downloadUrl.startsWith("https://github.com/esc0rtd3w/com.firepwn.home.montoya/releases") && downloadUrl.endsWith(".apk"))
             {
                 mApkDownloadUrl = downloadUrl;
                 break;

@@ -134,7 +134,7 @@ public class ForeGroundService extends Service
                     }
                     else
                     {
-                        Toast.makeText(ForeGroundService.this, "FireStarter: " + message, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ForeGroundService.this, "FirePwnHome: " + message, Toast.LENGTH_SHORT).show();
                     }
                 }
             });
