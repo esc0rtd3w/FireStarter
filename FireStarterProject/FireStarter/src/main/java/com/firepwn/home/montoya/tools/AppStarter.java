@@ -82,6 +82,7 @@ public class AppStarter
                         Log.d(AppStarter.class.getName(), "Using FLAG_ACTIVITY_CLEAR_TASK: isStartupAction=" + isStartupAction.toString() + ", isClearPreviousInstancesForced=" + isClearPreviousInstancesForced.toString());
                         launchIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         launchIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                        launchIntent.addFlags(Intent.FLAG_ACTIVITY_RETAIN_IN_RECENTS);
                     }
 
                     // Launch the intent
